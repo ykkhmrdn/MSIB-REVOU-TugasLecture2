@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Poppins';
+
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222831;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00adb5;
+}
+
+.navbar-toggler-icon {
+    background-color: #eeeeee;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #eeeeee;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00adb5;
+}
+
+
+/* Landing Page */
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.greetings h1,
+.greetings h2,
+.greetings p {
+    margin: 10px;
+    text-align: center;
+}
+
+.greetings h1{
+    font-weight: bold;
+    font-size: 96px;
+}
+
+.greetings h2{
+    font-size: 50px;
+    color: #00ADB5;
+}
+
+.greetings p{
+    font-size: 30px;
+}
+
+.greetings .teks1 {
+    color: #FFDE3D;
+}
+
+.greetings .teks2 {
+    color: #00a0e4;
+}
+
+/* Our Team */
+#our-team {
+    padding: 50px 0;
+}
+
+#our-team h1{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+#our-team h1 span{
+    color: #00ADB5;
+}
+
+.team-member {
+    padding-top: 50px;
+    text-align: center;
+    width: 250px;
+}
+
+.team-column {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    font-size: 24px;
+    margin: 5px;
+    color: #00adb5;
+}
+
+.team-member p {
+    font-size: 18px;
+    margin: 0;
+    color: #eeeeee;
+}
+
+.team-member ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.team-member li {
+    margin-bottom: 5px;
+}
+
+.team-member table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    color: #eeeeee;
+}
+
+.team-member th,
+.team-member td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #00adb5;
+}
+
+.team-member th {
+    background-color: #00adb5;
+    color: #eeeeee;
+}
+
+/* Pesan */
+#pesan {
+    padding: 50px 0;
+}
+
+
+#pesan h1{
+    font-size: 64px;
+}
+
+#pesan h1 span {
+    color: #00adb5;
+}
+
+#pesan form {
+    background-color: #222831;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#pesan label {
+    color: #eeeeee;
+}
+
+#pesan .form-control {
+    background-color: #393E46;
+    color: #eeeeee;
+    border-color: #00adb5;
+}
+
+#pesan .btn-primary {
+    background-color: #00adb5;
+    border-color: #00adb5;
+}
